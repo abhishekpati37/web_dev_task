@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+main {
+  padding: 2em;
+}
+
+section#team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article.member {
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  flex-basis: calc(33.333% - 2em);
+  margin: 1em;
+  padding: 1em;
+text-align: center;
+}
+
+article.member img {
+  width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
